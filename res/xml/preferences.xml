@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/history">
+        <ListPreference
+            android:key="PREF_HISTORY_UPDATE_FREQ"
+            android:title="@string/refresh_frequency"
+            android:summary="@string/data_refresh_freq_desc"
+            android:entries="@array/history_sync_freq_options"
+            android:entryValues="@array/history_sync_freq_values"
+            android:dialogTitle="@string/refresh_frequency"
+            android:defaultValue="-1"
+            />
+        <EditTextPreference
+            android:summary="@string/cache_size_desc"
+            android:defaultValue="10"
+            android:numeric="integer"
+            android:title="@string/cache_size"
+            android:key="PREF_HISTORY_CACHE_SIZE" />
+    </PreferenceCategory>
+</PreferenceScreen>

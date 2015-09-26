@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">RainCheck</string>
+    <string name="refresh">Refresh</string>
+    <string name="about">About</string>
+    <string name="history">History</string>
+    <string name="cache_size">Cache size</string>
+    <string name="cache_size_desc">Controls how many images are stored in image history cache</string>
+    <string name="preferences">Preferences</string>
+    <string name="history_enabled_title">Enable History</string>
+    <string name="history_enabled_desc">When enabled, the program will automatically fetch and save radar images for radar history.</string>
+    <string name="data_refresh_freq_desc">Controls how often radar image is fetched for image history purposes.</string>
+    <string name="refresh_frequency">Refresh Frequency</string>
+    <string name="settings">Settings</string>
+    <string name="no_history_available">No history is available yet.</string>
+    <string name="error_radar_image">Could not load Radar image.</string>
+    <string name="error_about_dialog">Could not load About dialog.</string>
+</resources>

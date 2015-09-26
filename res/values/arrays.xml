@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="history_sync_freq_options">
+        <item>Manual</item>
+        <item>Every minute</item>
+        <item>Every 5 minutes</item>
+        <item>Every 10 minutes</item>
+        <item>Every 15 minutes</item>
+        <item>Every 30 minutes</item>
+        <item>Every Every Hour</item>
+        <item>Every 2 hours</item>
+        <item>Every 4 hours</item>
+        <item>Once a day</item>
+    </string-array>
+    <string-array name="history_sync_freq_values">
+        <item>-1</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>240</item>
+        <item>1440</item>
+    </string-array>
+</resources>

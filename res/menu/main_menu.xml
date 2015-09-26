@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/main_menu_refresh"
+          android:icon="@drawable/ico_refresh"
+          android:title="@string/refresh" />
+    <item android:id="@+id/main_menu_history"
+          android:icon="@drawable/ico_history"
+          android:title="@string/history" /> 
+    <item android:id="@+id/main_menu_preferences"
+          android:icon="@drawable/ico_settings"
+          android:title="@string/settings" />                     
+    <item android:id="@+id/main_menu_about"
+          android:icon="@drawable/ico_about"
+          android:title="@string/about" />          
+</menu>
